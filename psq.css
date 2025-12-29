@@ -1,0 +1,32 @@
+.main
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+
+}
+.c1
+{
+    background-color:wheat;
+    width: 30vh;
+    height: 100vh;
+    border-radius: 10px;
+}
+.c2
+{
+    background-color: green;
+    width: 70vh;
+    border-radius: 10px;
+}
+nav a
+{
+   text-decoration: none;
+   font-size: 30px;
+}
+ul{
+    list-style: none;
+}
+body
+{
+    position: relative;
+}
