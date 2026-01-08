@@ -1,0 +1,37 @@
+body {
+    display: grid;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color:black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.div1 {
+    display: grid;
+    background:linear-gradient(to bottom,purple,darkblue,blue,skyblue);
+    padding: 30px;
+    justify-items: center;
+    border-radius: 10px;
+    gap: 15px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input {
+    padding: 5px;
+    width: 90%;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#imgbox img {
+    margin-top: 10px;
+}
