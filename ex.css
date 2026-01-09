@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: white;
+  padding: 40px;
+}
+
+/* Title */
+.title {
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+/* Grid Layout */
+.parking-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+}
+
+/* Slot Base Style */
+.slot {
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid;
+}
+
+/* Status Colors */
+.available {
+  border-color: #22c55e;
+  color: #22c55e;
+}
+
+.occupied {
+  border-color: #ef4444;
+  color: #ef4444;
+}
+
+.reserved {
+  border-color: #eab308;
+  color: #eab308;
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+    text-align: center;
+  }
+}
